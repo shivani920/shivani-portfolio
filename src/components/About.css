@@ -1,0 +1,46 @@
+.about {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 2;
+}
+
+.text-content p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-bottom: 2rem;
+  }
+}
+
